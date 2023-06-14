@@ -4,7 +4,7 @@
 sequenceDiagram
     participant Braze
     participant Newsletters API
-    participant Newsletters CAPI
+    participant CAPI
     Braze->>Newsletters API: Get Newsletter HTML
     Newsletters API->>CAPI: Fetch Article Content
     CAPI-->>Newsletters API: Article Content
