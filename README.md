@@ -43,6 +43,6 @@ The above implementation replaces the hard coded templates with a call to the Ne
 * Update Email Rendering to fall back to a default set of styles where not metadata available for a given newsletter - Large
 * Implement basic set of designs in email rendering - Medium (Dependency on design - maybe a weeks work - we have a lot of existing work to draw upon) (Large - 1 - 2 weeks)
 * Expose Design Selection in the Tools UI - Medium (4 - 5 days)
-* Explore and implement the selection of basic template to existing newsletters (Email rendering types no using basic template) - Large (2 - 3 weeks)
+* Explore and implement the selection of basic template to existing newsletters (Email rendering types not using basic template) - Large (2 - 3 weeks)
 * Drive `LinkedList` behaviour through metadata (maybe a nice-to-have) - at present this is hard-code in email rendering. This is a limiter of design choice. We might be able to circumvent this with a common linked list component in email rendering an then campuring the `trigger` sub-heading in the Newletter metadata (spike / discussion)
 
