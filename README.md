@@ -36,7 +36,7 @@ The above implementation replaces the hard coded templates with a call to the Ne
 
 ## Tasks
 
-* Update model in tool to decribe any metadata elements used in email rendering but not in the tool - Small ( coupls of hours)
+* Update model in tool to decribe any metadata elements used in email rendering but not in the tool - Small (couple of hours probably)
 * Update Email rendering make call to Newsletter API to retrieve any newsletter specific Metadata - Large
     [There are several sub-tasks in here] - There could be an initial step where we replace all the overlap in the metadata
     * - Clarify what the identifiers are here - Are we mapping a series tag to a template? (1-2 weeks)
